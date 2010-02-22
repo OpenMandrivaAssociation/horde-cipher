@@ -5,7 +5,7 @@
 
 Name:          horde-cipher
 Version:       0.0.2
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       Secret Encryption API
 License:       LGPL
 Group:         Networking/Mail
@@ -15,7 +15,6 @@ BuildArch:     noarch
 Requires(pre): %{_bindir}/pear
 Requires:      horde-framework
 Requires:      php-pear-channel-horde
-BuildRequires: horde-framework
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
 BuildRoot:     %{_tmppath}/%{name}-%{version}
