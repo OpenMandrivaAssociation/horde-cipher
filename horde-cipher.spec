@@ -73,3 +73,22 @@ fi
 %{peardir}/tests/Horde_Cipher/tests/Cipher5.phpt
 %{peardir}/tests/Horde_Cipher/tests/Cipher6.phpt
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-4mdv2011.0
++ Revision: 560503
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2010.1
++ Revision: 524889
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel ver to 3
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 509357
+- removed Buildrequires horde-framework
+- replace PreReq with Requires(pre)
+- import horde-cipher
+
+
