@@ -5,7 +5,7 @@
 
 Name:          horde-cipher
 Version:       0.0.2
-Release:       %mkrel 4
+Release:       5
 Summary:       Secret Encryption API
 License:       LGPL
 Group:         Networking/Mail
